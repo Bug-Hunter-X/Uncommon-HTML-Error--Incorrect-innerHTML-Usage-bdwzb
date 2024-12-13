@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Uncommon HTML Error Solution</title>
+</head>
+<body>
+  <div id="myDiv">
+    This text should be visible.
+  </div>
+
+  <script>
+    // Correct use of innerHTML. Note the use of a string containing the HTML tags. 
+    document.getElementById('myDiv').innerHTML = "<p>This is a paragraph</p>"; 
+  </script>
+</body>
+</html>
